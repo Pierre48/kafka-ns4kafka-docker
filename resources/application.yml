@@ -3,6 +3,16 @@ kafka:
     servers: broker:29092
 
 
+micronaut:
+  security:
+    enabled: true
+    authentication: bearer
+    gitlab:
+      enabled: true
+      url: https://gitlab.com
+    ldap:
+      enabled: false
+
 ns4kafka:
   security:
     admin-group: adminGroup
