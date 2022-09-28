@@ -20,11 +20,11 @@ ns4kafka:
       - username: admin
         password: 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
         groups:
-          - "adminGroup"
+          - "training-kafka"
       - username: user
         password: 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
         groups:
-          - "userGroup"
+          - "training-kafka"
   managed-clusters:
     test-cluster:
       provider: SELF_MANAGED
